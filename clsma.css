@@ -1,0 +1,152 @@
+h1{
+    color: purple;
+    
+}
+.iki ul li {
+    
+    list-style:none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.iki a{
+    background-color:rgb(139, 94, 128);
+    font-size: 20px;
+    color: white;
+    text-decoration:none;
+    box-sizing: border-box;
+    border: 1pt solid orange;
+    border-radius: 20px;
+    padding: 10px;
+    transition:0.5s;
+
+}
+.iki{
+    background: url("1.jpg");
+    width: 100%;
+    height: 20vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    right: 90px;
+}
+.iki li:hover a{
+    color: green;
+    background-color: white;
+
+}
+figure{
+    border: 6pt solid grey;
+    height: 250px;
+    width: 500px;
+    border-style: double;
+    
+    
+    
+}
+.iki h1{
+    position: fixed;
+    top: 5%;
+    font-size: 220%;
+    left: 15%;
+    color: white;
+}
+.button{
+    position: absolute;
+    top: 5%;
+    
+
+}
+.button a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px ;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.5s;
+}
+.button a:hover{
+    color: #ffffff;
+    background-color: transparent;
+    padding: 10px;
+}
+
+img{
+    
+    height: 150px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+p{
+    
+    margin: 15px;
+    padding: 5px;
+    top: 150px;
+    left: 300px;
+
+}
+.ilkk{
+    
+    margin: 5px;
+    padding: 5px;
+    position: absolute; 
+    top: 150px;
+    left: 150px;
+    right: 90px;
+}
+
+.işl{
+    
+    border: 1pt solid black;
+    background-color:#9A77CF;
+    color:black;
+    height: 500px;
+    width: 120px;
+    position:relative;
+    left: 0;
+    top: 70px;
+}
+h4{
+    margin: 2px;
+    padding: 20px;
+}
+.üçü{
+    border: 2pt solid grey;
+    border-collapse:collapse;
+    font-size: 15px;
+    float: right;
+
+}
+.üçü th,td{
+    border: 2pt solid grey;
+    
+}
+.button{
+    position: relative;
+    top: -45px;
+}
+.galeri a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px ;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.5s;
+
+}
+.galeri a:hover{
+    color: #ffffff;
+    background-color: transparent;
+    padding: 10px;
+}
