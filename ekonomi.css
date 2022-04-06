@@ -1,0 +1,119 @@
+h1{
+    color: rgb(255, 255, 255);
+    
+}
+.iki ul li {
+    
+    list-style:none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.iki {
+    background-image: linear-gradient(#1c0122,#0f042c);
+    display: flex;
+    justify-content: space-around;
+    right: 90px;
+}
+.iki a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px ;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.5s;
+
+}
+.iki li :hover a{
+    color: #ffffff;
+    background-color: transparent;
+    padding: 10px;
+}
+article{
+    background-color: grey;
+    width: 1000px;
+    margin: 5px 70px;
+    padding: 5px 40px;
+    position: absolute;
+    top: 135px;
+    left: 250px;
+
+}
+
+p{
+    margin: 16px 0;
+    font-size: 165%;
+}
+figure{
+    padding: 15px;
+    width: 250px;
+    float: left;
+    margin: 15px;
+}
+img{
+    
+    height: 250px;
+    width: 250px;
+}
+.işl{
+    
+    border: 1pt solid black;
+    background: linear-gradient(#18101D,#3D2949);
+    color:white;
+    height: 600px;
+    width: 220px;
+    position:absolute;
+    left: 0;
+    top: 140px;
+    font-size: 120%;
+}
+.işl p{
+    font-size: 100%;
+}
+.byk{
+    position: relative;
+
+}
+.üğp{
+    
+    background:linear-gradient(#18101D,#3D2949);
+    color: white;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 0px;
+    top: 140px;
+    
+}
+.üçü{
+    border:1pt solid black;
+    padding: 0;
+    margin: 0;
+    width:100%;
+    height: 150%;
+
+}
+.üçü th td{
+    
+    border-bottom: 2px solid red;
+    
+}
+td{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 60px;
+    
+}
+.üçü th{
+    height: 60px;
+}
+.üçü tr:hover {background-color: coral;}
+.üçü tr:nth-child(even) {background-color: #f2f2f2;}
+h5{
+    font-size: 200%;
+    color:#3D2949 ;
+}
